@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            color:white;
+            text-align: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Open Sans",Tahoma,Arial,sans-serif;
+       
+        }
+        #outer {
+            margin: 0 20% 0 20%;
+            border-color:orange;
+        }
+        #com {
+             height: 300px;
+             width: 600px;
+        }
+        #fname {
+            color: black;
+            text-align: left;
+        }
+        #lname {
+            color: black;
+            text-align: left;
+        }
+        #email {
+            color: black;
+            text-align: left;
+        }
+        #phn {
+            color: black;
+            text-align: left;
+        }
+        #com {
+            color: black;
+            text-align: justify;
+        }
+        
+    </style>
+</head>
+<body id="bg" style="background-image:url(https://3.bp.blogspot.com/-of4RLqw2gHw/T6I8oBvdZYI/AAAAAAAAACw/ZJDQNdbIjbY/s640/bg-body.jpg?fbclid=IwAR01YjBvRAuAC3KSd-MjssY1B-0mpfltnAanD71WLxmrlk9Oy-X_xo5grWs)">
+    <h1 style="background-color: darkgray; color: rgb(35, 88, 247);">Registration Form</h1>
+    <fieldset id="outer">
+    <p>Pease fillup this form to join Happy Life</p><br> 
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
+  <label for="email">E-mail:</label>
+  <input type="text" id="email" name="email" placeholder="Enter your e-mail"><br><br>
+  <label for="phone">Phone:</label>
+  <input type="digit" id="phn" name="phone" placeholder="Enter your phone number"><br><br>
+  <label for="gender">Your gender:</label><br>
+  <input type="radio" id="gender" name="gender">Male
+  <input type="radio" id="gender" name="gender">Female
+  <input type="radio" id="gender" name="gender">Other<br><br>
+  <label for="hobies">Your hobies:</label><br>
+  <input type="checkbox">Singing 
+  <input type="checkbox">Eating
+  <input type="checkbox">Travelling
+  <input type="checkbox">Dancing
+  <input type="checkbox">Coding
+  <br> <br> <br>
+  <label for="comment" >Say something about yourself</label><br>
+  <input type="text" id="com"> </input>
+  <input type="submit" value="Submit" style="color: black;">
+
+</form>
+</fieldset>
+</body> <br> <br>
+<footer style="background-color: darkgrey; color: rgb(255, 255, 0);"> All rights of this page owned by Mohammad Fahad&copy; 2020 </footer>
+</html>
